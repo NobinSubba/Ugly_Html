@@ -2,10 +2,64 @@ body{
     background-color: black;
 }
 h1 {
-    color: orange;
+    color: yellow;
     text-align: center;
+    background-color: blue;
+    font-size: 13;
+    font-family:monospace;
 }
 h2{
     color: white;
+    text-align: left;
+    font-size: 15px;
+    font-family:monospace;
+    font-weight: lighter;
+}
 
+div { 
+    text-align: center;
+    
+}
+div > p{
+    color: white;
+    text-align: left;
+}
+.list{
+    color:white;
+    text-align: left;
+
+}
+
+.pokemon_images{
+    height: 120px;
+    width: 120px;
+}
+
+#bulbasaur_container{
+    background-color: rgb(157,190,146);
+    color: white;
+    font-family:monospace;
+    border: 10px;
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+
+
+}
+#charmander_container{
+    background-color: rgb(254,148,65);
+    color: white;
+    font-family:monospace;
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+}
+#squirtle_container{
+    background-color: rgb(147,200,208);
+    color: white;
+    font-family:monospace;
+    border: 10px;
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
 }
